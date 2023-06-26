@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/rock-paper-scissors.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <img src="images/rock-paper-scissors.png" class="logo">
+    <h1>Rock Paper Scissors</h1>
+    <p class="choose-text">Choose one button</p>
+
+    <div class="bttns">
+        <button type="button" class="rock" id="button1"><img class="action-pics" src="images/rock.png">Rock</button>
+        <button type="button" class="paper" id="button2"><img class="action-pics" src="images/paper.png">Paper</button>
+        <button type="button" class="scissors" id="button3"><img class="action-pics" src="images/scissors.png">Scissors</button>
+    </div>
+
+    <div class="foot">
+        <div class="choices">
+            <p class="choice">Your Choice : <br><span id="userChoice"></span> </p>
+            <p class="choice">Computer's Choice : <br><span id="computerChoice"></span></p>
+        </div>
+        <p class="result">Result : <span id="result"></span></p>
+    </div>
+    <p class="abay">Developed by <a href="https://github.com/Abayvm">Abay</a></p>
+    <script src="index.js"></script>
+</body>
+</html>

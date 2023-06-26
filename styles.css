@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+.logo{
+    height: 80px;
+}
+.choose-text{
+    font-family: 'Ubuntu', sans-serif;
+}
+.action-pics{
+    height: 20px;
+}
+.bttns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 10px;
+}
+.choice{
+    font-size: 20px;
+}
+.result{
+    font-size: 25px;
+}
+.abay{
+    margin-top: 150px;
+}
+#userChoice{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+#computerChoice{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.result{
+    font-family: 'Roboto Mono', monospace;
+}
